@@ -1,0 +1,65 @@
+body {
+      font-family: Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+        background-position: center;
+        background-size: cover;
+         height: 100vh;
+    margin: 0;
+    background-color: linear-gradient(45deg, hsl(57, 89%, 57%), #fad0c4),
+      linear-gradient(45deg, hsl(57, 89%, 57%), #fad0c4),
+      linear-gradient(135deg, #894909, #f1ea2b);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+        
+
+    }
+
+    h1 {
+      color: gold;
+    }
+
+    #countdown {
+      font-size: 2em;
+      margin-top: 20px;
+      padding: 20px;
+      border: 2px solid gold;
+      border-radius: 12px;
+      display: inline-block;
+      background: rgba(255, 215, 0, 0.1);
+      box-shadow: 0 0 20px gold;
+      
+    }
+    footer{
+        background-color: darkgrey;
+        margin-top: 20px;
+        color: black;
+        
+    }
+#contact img{
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#index{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    button{
+        background-color: darkorange;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        width: 280px;
+    }
+}
